@@ -15,7 +15,7 @@ const stories = [
 export default function StoriesBar(){
     return(
         <div class="stories">
-          {stories.map(storie => <Story userName={storie.userName} image={storie.image} />)}
+          {stories.map(story => <Story userName={story.userName} image={story.image} />)}
           <div class="setinha">
             <ion-icon name="chevron-forward-circle"></ion-icon>
           </div>

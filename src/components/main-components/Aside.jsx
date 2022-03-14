@@ -6,7 +6,7 @@ import Copyright from "./aside-main-components/Copyright"
 export default function Aside(){
     return(
         <div class="sidebar">
-            <User />
+            <User name="Catana" nickName="catanacomics" image="assets/img/catanacomics.svg" />
             <SuggestionsArea />
             <Links />
             <Copyright />
